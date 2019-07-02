@@ -18,7 +18,7 @@ header{
     height: 80px;
 }
 section{
-    text-align: center;
+    
 }
 footer{
     text-align: center;
@@ -38,22 +38,19 @@ small{
 }
 /* idc settings */
 .idc_block{
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 200px;
     padding: 5px;
     margin: 10px;
     text-align: center;
-   
-    background-color: rgb(175, 165, 165);
-    
-    transition: 100ms;
+    background-color: rgb(182, 182, 182);
+    transition: 1000ms;
     cursor: pointer;
 }
+.idc_block > p{
+    text-align: left
+}
 .idc_block:hover{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    top: -10px;
     box-shadow: 4px 4px 10px #4a4848;
 }
 /* media settings */
