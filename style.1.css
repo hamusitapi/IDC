@@ -1,0 +1,88 @@
+body{
+    /* background-image: url("./bj.jpeg"); */
+    -moz-user-select: -moz-none; 
+    -moz-user-select: none; 
+    -o-user-select:none; 
+    -khtml-user-select:none; 
+    -webkit-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+    font-weight: 100;
+    /* overflow:hidden; */
+    background-color: #f1f1f1
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow:0px 0px 35px #ababab;
+}
+header > h1{
+    margin-left:30px 
+}
+section{
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+#flex_box{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+
+}
+/* links settings */
+a{
+    color: black;
+    text-decoration-line: none;
+}
+/* text settings */
+h1,h2,h3,h4,small,p,div,span{
+    font-weight: 100;
+}
+small{
+    font-size: 22px;
+}
+/* idc settings */
+.idc_block{
+    width: 225px;
+    height: 175px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    transition: 400ms;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #e2e2e2;
+}
+.idc_block > p{
+    text-align: left
+}
+.idc_block:hover{
+    box-shadow: 0px 0px 20px #c5c5c5;
+}
+/* media settings */
+@media screen and (min-width: 790px){
+    section{
+        width: 695px!important;
+    }   
+}
+@media screen and (min-width: 990px){
+    section{
+        width: 930px!important;
+    }
+}
+@media screen and (min-width: 1190px){
+    section{
+        width: 1200px!important;
+    }
+}

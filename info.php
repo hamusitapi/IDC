@@ -21,13 +21,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>个人IDC导航站</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.1.css">
 </head>
 <body>
     <header>
         <h1>个人IDC导航站<small> - 专注个人IDC收录</small></h1>
     </header>
-    <section>
+    <section style="height:600px">
         <h2><?php echo $row['website_name']; ?></h2>
         <p>爬取时间：<?php echo $row['found_time']; ?></p>
         <p>直达地址：<a href="<?php echo $row['website_link']; ?>" target="_blank"><?php echo $row['website_name']; ?></a></p>

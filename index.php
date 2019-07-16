@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>个人IDC导航站</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.1.css">
     
 </head>
 <body>
@@ -13,7 +13,7 @@
         <h1>个人IDC导航站<small> - 专注个人IDC收录</small></h1>
     </header>
     <section id="sh">
-        <div style="display:flex;flex-wrap:wrap;justify-content:center">
+        <div id="flex_box" >
         <?php
         $servername = "localhost";
         $username = "root";
@@ -40,13 +40,9 @@
         $conn->close();
         ?>
         </div>
-        <p>
-        
-        </p>
+        <footer><p><a href="">Copyright 个人IDC导航站 Rights Reserved.</a></p></footer>
     </section>
-    <footer>
-        <p><a href="">Copyright 个人IDC导航站 Rights Reserved.</a></p>
-    </footer>
+    
     <script>
     function know(k) {
         window.open("/info.php?idc="+k)
